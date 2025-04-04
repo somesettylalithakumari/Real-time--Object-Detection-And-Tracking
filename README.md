@@ -54,22 +54,22 @@ pip install --upgrade pip
 pip install -r requirements.txt
 6 - Run the code with mentioned command below.
 
-#for detection only
+for detection only
 python ob_detect.py --weights yolov5s.pt --source "your video.mp4"
 
-#for detection of specific class (person)
+for detection of specific class (person)
 python ob_detect.py --weights yolov5s.pt --source "your video.mp4" --classes 0
 
-#for object detection + object tracking
+for object detection + object tracking
 python obj_det_and_trk.py --weights yolov5s.pt --source "your video.mp4"
 
-#for object detection + object tracking + object blurring
+for object detection + object tracking + object blurring
 python obj_det_and_trk.py --weights yolov5s.pt --source "your video.mp4" --blur-obj
 
-#for object detection + object tracking + object blurring + different color for every bounding box
+for object detection + object tracking + object blurring + different color for every bounding box
 python obj_det_and_trk.py --weights yolov5s.pt --source "your video.mp4" --blur-obj --color-box
 
-#for object detection + object tracking of specific class (person)
+for object detection + object tracking of specific class (person)
 python obj_det_and_trk.py --weights yolov5s.pt --source "your video.mp4" --classes 0
 7 - Output file will be created in the working-dir/runs/detect/exp with original filename
 
