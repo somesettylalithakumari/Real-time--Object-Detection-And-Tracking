@@ -29,7 +29,7 @@ This project uses the **COCO dataset** for training the YOLOv5 model, which incl
 ## Setup INstructions
 1 - Clone the repository
 
-git clone https://github.com/RizwanMunawar/yolov5-object-tracking.git
+git clone https://github.com/somesettylalithakumari/yolov5-object-tracking.git
 2 - Goto the cloned folder.
 
 cd yolov5-object-tracking
